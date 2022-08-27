@@ -19,5 +19,39 @@ img {
 .container{
     max-width: 1500px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 100px; /* top and bottom 0, left and right 30px */
+}
+
+.navbar{
+    background-color: #1F2937;
+    color: white;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.navbar .nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
