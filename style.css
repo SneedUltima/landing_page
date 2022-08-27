@@ -11,16 +11,13 @@ body {
     line-height: 1.5;
 }
 
-img {
-    height: auto;
-    width: 400px;
-}
-
 .container{
     max-width: 1500px;
     margin: 0 auto;
     padding: 0 100px; /* top and bottom 0, left and right 30px */
 }
+
+/* *** NAVBAR *** */
 
 .navbar{
     background-color: #1F2937;
@@ -32,6 +29,7 @@ img {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    padding-top: 10px;
 }
 
 .navbar .logo {
@@ -54,4 +52,49 @@ img {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/* *** HERO SECTION *** */
+
+.header .container {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 60px 100px;
+}
+
+.header h1 { 
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.header button {
+    color: #F9FAF8;
+    font-weight: bold;
+    background-color: #3882F6;
+    border: none;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+.header .text {
+    margin-right: 20px;
+}
+
+.header img {
+    height: auto;
+    width: 600px;
+    border-radius: 5%;
 }
