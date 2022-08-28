@@ -54,6 +54,11 @@ body {
     color: #E5E7EB;
 }
 
+.navbar a:hover{
+    color: #c4c4c5;
+}
+
+
 /* *** HERO SECTION *** */
 
 .header .container {
@@ -79,14 +84,21 @@ body {
 }
 
 .header button {
+    font-size: 18px;
     color: #F9FAF8;
     font-weight: bold;
     background-color: #3882F6;
     border: none;
-    padding: 5px 20px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 10%;
+    cursor: pointer;
+}
+
+.header button:hover {
+    color: #3882F6;
+    background-color: #F9FAF8;;
 }
 
 .header .text {
@@ -171,20 +183,19 @@ body {
 
 /* *** CTA SECTION *** */
 
-.cta-panel .container {
-    display: flex;
-    justify-content: center;
-    background-color: red;
-}
-
 .cta-box {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 100px 100px;
-    padding: 6px 400px;
+    /* padding: 6px 400px; */
     background-color: #3882F6;
     border-radius: 1%;
+}
+
+.cta-box .text {
+    /* margin: 50px 150px 50px 250px; */
+    margin: 50px 100px 50px 100px;
 }
 
 .cta-box h1 {
@@ -198,14 +209,23 @@ body {
 }
 
 .cta-box button {
+    font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
     background-color: #3882F6;
     border: 2px solid #F9FAF8;
-    padding: 0px 40px;
+    margin: 50px 100px 50px 20px;
+    padding: 10px 40px;
     text-align: center;
     text-decoration: none;
     border-radius: 10%;
+    cursor: pointer;
+}
+
+.cta-box button:hover {
+    color: #3882F6;
+    background-color: #F9FAF8;;
+    border: 2px solid #245db8;
 }
 
 /* *** FOOTER SECTION *** */
